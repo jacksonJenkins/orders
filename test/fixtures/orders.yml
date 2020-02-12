@@ -1,0 +1,27 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  customer: MyString
+  address: MyString
+  assigned_driver: MyString
+  truck_number: 1
+  delivery_date: 2020-02-11 16:23:51
+  terminal: MyString
+  supplier: MyString
+  account: MyString
+  product: MyString
+  quantity: 1
+  order_status: MyString
+
+two:
+  customer: MyString
+  address: MyString
+  assigned_driver: MyString
+  truck_number: 1
+  delivery_date: 2020-02-11 16:23:51
+  terminal: MyString
+  supplier: MyString
+  account: MyString
+  product: MyString
+  quantity: 1
+  order_status: MyString

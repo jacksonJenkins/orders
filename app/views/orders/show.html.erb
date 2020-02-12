@@ -1,0 +1,59 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Customer:</strong>
+  <%= @order.customer %>
+</p>
+
+<p>
+  <strong>Address:</strong>
+  <%= @order.address %>
+</p>
+
+<p>
+  <strong>Assigned driver:</strong>
+  <%= @order.assigned_driver %>
+</p>
+
+<p>
+  <strong>Truck number:</strong>
+  <%= @order.truck_number %>
+</p>
+
+<p>
+  <strong>Delivery date:</strong>
+  <%= @order.delivery_date %>
+</p>
+
+<p>
+  <strong>Terminal:</strong>
+  <%= @order.terminal %>
+</p>
+
+<p>
+  <strong>Supplier:</strong>
+  <%= @order.supplier %>
+</p>
+
+<p>
+  <strong>Account:</strong>
+  <%= @order.account %>
+</p>
+
+<p>
+  <strong>Product:</strong>
+  <%= @order.product %>
+</p>
+
+<p>
+  <strong>Quantity:</strong>
+  <%= @order.quantity %>
+</p>
+
+<p>
+  <strong>Order status:</strong>
+  <%= @order.order_status %>
+</p>
+
+<%= link_to 'Edit', edit_order_path(@order) %> |
+<%= link_to 'Back', orders_path %>
